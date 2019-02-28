@@ -20,7 +20,8 @@ def main(input_file):
             photos.append(Photo(index, orientation, tags))
 
             index += 1
-
+        file.close
+    return photos
 
 if __name__ == "__main__":
     main(sys.argv[1])
