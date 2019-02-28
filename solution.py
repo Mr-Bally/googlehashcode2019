@@ -46,7 +46,7 @@ def main(input_file):
                 best_weight = weight
                 best_index = index2
 
-            vertical_graph.add_weighted_edges_from([(vertical_photos[index].id, vertical_photos[index2].id, weight)])
+        vertical_graph.add_weighted_edges_from([(vertical_photos[index].id, vertical_photos[best_index].id, best_weight)])
 
     print(vertical_graph.edges(data=True))
 
