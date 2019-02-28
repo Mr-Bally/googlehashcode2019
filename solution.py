@@ -33,7 +33,7 @@ def main(input_file):
 
     for vertical_photo in vertical_photos:
         # print(vertical_photo.id)
-        vertical_graph.add_node(id)
+        vertical_graph.add_node(vertical_photo.id)
     i = 0
     for index in range (len(vertical_photos)):
         best_weight = 0
