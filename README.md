@@ -1,4 +1,4 @@
 # googlehashcode2019
 Repo for the Google Hash challenge 2019
 
-This will be updated in time
+FYI We didn't make it to the finals....better look next year
